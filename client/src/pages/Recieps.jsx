@@ -32,7 +32,7 @@ function Recieps() {
                 <ReciepsLink data={post} key={post.id} />
               )
             }
-            return null; // or return;
+            return null;
           })}
         </div>
       </div>

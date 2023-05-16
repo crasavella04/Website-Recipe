@@ -22,12 +22,7 @@ function OurRecieps() {
           + Создать рецепт
         </Link>
         <div className="recieps__postsList">
-        {posts.map(post => {
-
-            return (
-                <ReciepsLink data={post} key={post.id} />
-            )
-          })}
+          {posts.map(post => <ReciepsLink data={post} key={post.id} />)}
         </div>
       </div>
     </div>

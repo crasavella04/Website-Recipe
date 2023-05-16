@@ -3,8 +3,6 @@ import BurgerLink from './BurgerLink';
 
 function Burger( {props} ) {
 
-  let URL = window.location.pathname
-
   return(
     <div className={`burger__list ${props ? 'burger__list-active' : ''}`}>
       <BurgerLink urlPath={"/recieps"}>

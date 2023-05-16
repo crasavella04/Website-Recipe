@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import InputRegister from '../components/InputRegister';
 import ButtonRegister from '../components/ButtonRegister';
-import { Redirect } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 function Register() {

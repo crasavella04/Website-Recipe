@@ -70,8 +70,6 @@ function CreateRecieps() {
       }
     })
 
-    console.log(ingridients);
-
     if (flag) {
 
       fetch('/recipes/create', {
@@ -95,7 +93,6 @@ function CreateRecieps() {
     const newData = [...data];
     newData[index].name = ingridient;
     setData(newData);
-    // console.log(data);
   }
 
   return (

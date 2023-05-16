@@ -69,9 +69,7 @@ useEffect(() => {
         rating: Number(rating)
       })
     })
-      .then(() => {
-        window.location.reload();
-      })
+      .then(() => window.location.reload())
   }
 
   return (
